@@ -4,18 +4,18 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
+using GodLibrary;
+
 namespace MvcApplication1.Controllers
 {
-    public class HomeController : Controller
+    public class GodController : Controller
     {
         //
-        // GET: /Home/
+        // GET: /God/
 
         public ActionResult Index()
         {
-            ViewBag.Messages = "Hello ASP.NET MVC";
-            
-            return View();
+            return View(new God());
         }
 
     }

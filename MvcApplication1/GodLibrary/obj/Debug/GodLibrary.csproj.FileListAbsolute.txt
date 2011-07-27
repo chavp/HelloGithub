@@ -1,0 +1,5 @@
+E:\Data\GitRepositories\HelloGithub\MvcApplication1\GodLibrary\bin\Debug\GodLibrary.dll
+E:\Data\GitRepositories\HelloGithub\MvcApplication1\GodLibrary\bin\Debug\GodLibrary.pdb
+E:\Data\GitRepositories\HelloGithub\MvcApplication1\GodLibrary\obj\Debug\ResolveAssemblyReference.cache
+E:\Data\GitRepositories\HelloGithub\MvcApplication1\GodLibrary\obj\Debug\GodLibrary.dll
+E:\Data\GitRepositories\HelloGithub\MvcApplication1\GodLibrary\obj\Debug\GodLibrary.pdb

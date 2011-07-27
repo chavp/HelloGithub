@@ -5,3 +5,5 @@ E:\Data\GitRepositories\HelloGithub\MvcApplication1\MvcApplication1\bin\EntityFr
 E:\Data\GitRepositories\HelloGithub\MvcApplication1\MvcApplication1\obj\Debug\ResolveAssemblyReference.cache
 E:\Data\GitRepositories\HelloGithub\MvcApplication1\MvcApplication1\obj\Debug\MvcApplication1.dll
 E:\Data\GitRepositories\HelloGithub\MvcApplication1\MvcApplication1\obj\Debug\MvcApplication1.pdb
+E:\Data\GitRepositories\HelloGithub\MvcApplication1\MvcApplication1\bin\GodLibrary.dll
+E:\Data\GitRepositories\HelloGithub\MvcApplication1\MvcApplication1\bin\GodLibrary.pdb
