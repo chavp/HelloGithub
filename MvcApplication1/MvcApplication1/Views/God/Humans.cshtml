@@ -1,0 +1,27 @@
+﻿@model List<GodLibrary.Human>
+           
+@{
+    ViewBag.Title = "Humans";
+}
+
+<h2>Humans</h2>
+
+@{
+    //http://weblogs.asp.net/shijuvarghese/archive/2010/10/08/using-the-webgrid-helper-in-asp-net-mvc-3-beta.aspx
+
+    var grid = new WebGrid(source: Model,
+                defaultSort: "FirstName",
+                rowsPerPage: 3);
+}
+
+<div id="grid">
+    @grid.GetHtml(
+        tableStyle: "grid",
+        headerStyle: "head",
+        alternatingRowStyle: "alt",
+        columns: grid.Columns(
+            grid.Column("Name"),
+            grid.Column("Bod")
+        )
+    )
+</div>
