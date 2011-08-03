@@ -23,6 +23,24 @@ namespace MvcApplication1.Controllers
             return View();
         }
 
+        [HttpGet]
+        public ViewResult RsvpForm()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ViewResult RsvpForm(GuestResponse guestResponse)
+        {
+
+            return View(guestResponse);
+        }
+
+        public ActionResult Thanks()
+        {
+            return View();
+        }
+
         public ActionResult MySpreadsheets()
         {
 

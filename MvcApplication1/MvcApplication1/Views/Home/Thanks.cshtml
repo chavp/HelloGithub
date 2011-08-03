@@ -1,0 +1,24 @@
+﻿@model MvcApplication1.Models.GuestResponse
+
+@{
+    ViewBag.Title = "Thanks";
+}
+
+<h2>Thanks</h2>
+
+@{
+    try 
+    {
+        WebMail.SmtpServer = "smtp.example.com";
+        WebMail.SmtpPort = 587;
+        WebMail.EnableSsl = true;
+        WebMail.UserName = "mySmtpUsername";
+        WebMail.Password = "mySmtpPassword";
+        WebMail.From = "rsvps@example.com";
+        WebMail.Send("party-host@example.com", "RSVP Notification","Parinya");
+    } 
+    catch (Exception)
+    {
+        @:<b>Sorry - we couldn't send the email to confirm your RSVP.</b>
+    }
+}
