@@ -11,12 +11,12 @@
 
     var grid = new WebGrid(source: Model,
                 defaultSort: "FirstName",
-                rowsPerPage: 3);
+                rowsPerPage: 10);
 }
 
 <div id="grid">
     @grid.GetHtml(
-        tableStyle: "grid",
+        tableStyle: "myGrid",
         headerStyle: "head",
         alternatingRowStyle: "alt",
         columns: grid.Columns(
@@ -25,3 +25,7 @@
         )
     )
 </div>
+
+<script>
+    
+</script>

@@ -1,9 +1,12 @@
+E:\Data\GitRepositories\HelloGithub\MvcApplication1\MvcApplication1\obj\Debug\ResolveAssemblyReference.cache
 E:\Data\GitRepositories\HelloGithub\MvcApplication1\MvcApplication1\bin\MvcApplication1.dll
 E:\Data\GitRepositories\HelloGithub\MvcApplication1\MvcApplication1\bin\MvcApplication1.pdb
 E:\Data\GitRepositories\HelloGithub\MvcApplication1\MvcApplication1\bin\EntityFramework.dll
+E:\Data\GitRepositories\HelloGithub\MvcApplication1\MvcApplication1\bin\GodLibrary.dll
+E:\Data\GitRepositories\HelloGithub\MvcApplication1\MvcApplication1\bin\Google.GData.Client.dll
+E:\Data\GitRepositories\HelloGithub\MvcApplication1\MvcApplication1\bin\Google.GData.Extensions.dll
+E:\Data\GitRepositories\HelloGithub\MvcApplication1\MvcApplication1\bin\Google.GData.Spreadsheets.dll
+E:\Data\GitRepositories\HelloGithub\MvcApplication1\MvcApplication1\bin\GodLibrary.pdb
 E:\Data\GitRepositories\HelloGithub\MvcApplication1\MvcApplication1\bin\EntityFramework.xml
-E:\Data\GitRepositories\HelloGithub\MvcApplication1\MvcApplication1\obj\Debug\ResolveAssemblyReference.cache
 E:\Data\GitRepositories\HelloGithub\MvcApplication1\MvcApplication1\obj\Debug\MvcApplication1.dll
 E:\Data\GitRepositories\HelloGithub\MvcApplication1\MvcApplication1\obj\Debug\MvcApplication1.pdb
-E:\Data\GitRepositories\HelloGithub\MvcApplication1\MvcApplication1\bin\GodLibrary.dll
-E:\Data\GitRepositories\HelloGithub\MvcApplication1\MvcApplication1\bin\GodLibrary.pdb

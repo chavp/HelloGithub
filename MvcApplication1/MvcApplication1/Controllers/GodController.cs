@@ -6,6 +6,7 @@ using System.Web.Mvc;
 
 using GodLibrary;
 
+
 namespace MvcApplication1.Controllers
 {
     public class GodController : Controller
@@ -31,5 +32,7 @@ namespace MvcApplication1.Controllers
             humans.Add(new Human { Name = "Human_8", Bod = DateTime.Now });
             return View(humans);
         }
+
+
     }
 }
