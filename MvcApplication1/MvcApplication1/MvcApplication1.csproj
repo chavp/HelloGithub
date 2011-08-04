@@ -82,6 +82,8 @@
     </Compile>
     <Compile Include="Models\Book.cs" />
     <Compile Include="Models\GuestResponse.cs" />
+    <Compile Include="Models\Product.cs" />
+    <Compile Include="Models\ProductRepository.cs" />
     <Compile Include="Models\Row.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -173,6 +175,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Home\Thanks.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\Product.cshtml" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />

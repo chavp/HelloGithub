@@ -41,6 +41,11 @@ namespace MvcApplication1.Controllers
             return View();
         }
 
+        public ActionResult Product()
+        {
+            return View();
+        }
+
         public ActionResult MySpreadsheets()
         {
 
