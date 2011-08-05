@@ -123,25 +123,16 @@ input.txt
 	border: 1px inset #00008B;
 	width: 200px;
 }
-div
+div.box
 {
 	clear: left;
 	margin: 0;
 	padding: 0;
 	padding-top: 0.6em;
 }
-div label
+div.box label
 {
 	float: left;
 	width: 40%;
 	font: bold 0.9em Arial, Helvetica, sans-serif;
-}
-
-fieldset
-{
-	border: 1px dotted #61B5CF;
-	margin-top: 1.4em;
-	padding: 0.6em;
-	width: 400px;
-	height: 100px;
 }

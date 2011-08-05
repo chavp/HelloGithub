@@ -32,7 +32,5 @@ namespace MvcApplication1.Controllers
             humans.Add(new Human { Name = "Human_8", Bod = DateTime.Now });
             return View(humans);
         }
-
-
     }
 }

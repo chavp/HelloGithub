@@ -5,6 +5,9 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 
+using Ninject;
+using System.IO;
+
 namespace MvcApplication1
 {
     // Note: For instructions on enabling IIS6 or IIS7 classic mode, 
@@ -35,6 +38,21 @@ namespace MvcApplication1
 
             RegisterGlobalFilters(GlobalFilters.Filters);
             RegisterRoutes(RouteTable.Routes);
+
+            string topicname = "CHAT.DEMO";
+            string activemqbrokerurl = "tcp://localhost:61616";
+
+            string strclientid = Server.MachineName;
+            //Subscribe first to a topic
+
+            NonDurableTopicSubscriber mysubscriber = new NonDurableTopicSubscriber(topicname, activemqbrokerurl, strclientid);
+
+            mysubscriber.OnMessageReceived += new MessageReceivedDelegate(mysubscriber_OnMessageReceived);
+        }
+
+        protected void mysubscriber_OnMessageReceived(string message)
+        {
+            File.AppendAllText(@"C:\msg.txt", "1");
         }
     }
 }

@@ -8,6 +8,7 @@ namespace GodLibrary
     public class Human
     {
         public string Name { get; set; }
+        public int Power { get; set; }
         public DateTime Bod { get; set; }
     }
 }
