@@ -134,6 +134,9 @@
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="GodService.asmx" />
+    <Content Include="HTMLPage1.htm" />
+    <Content Include="images\cogs.png" />
+    <Content Include="Scripts\Domains\Pet.js" />
     <Content Include="Scripts\jquery-1.5.1-vsdoc.js" />
     <Content Include="Scripts\jquery-1.5.1.js" />
     <Content Include="Scripts\jquery-1.5.1.min.js" />
@@ -199,6 +202,15 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Files\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\HypnoticAnimated.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\Map.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\Sprites.cshtml" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />

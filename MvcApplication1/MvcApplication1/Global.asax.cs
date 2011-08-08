@@ -39,6 +39,11 @@ namespace MvcApplication1
             RegisterGlobalFilters(GlobalFilters.Filters);
             RegisterRoutes(RouteTable.Routes);
 
+            //TopicSubscriber();
+        }
+
+        void TopicSubscriber()
+        {
             string topicname = "CHAT.DEMO";
             string activemqbrokerurl = "tcp://localhost:61616";
 

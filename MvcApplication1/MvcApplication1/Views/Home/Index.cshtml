@@ -1,5 +1,5 @@
 ﻿@{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Home - Index";
 }
 
 <h2>@ViewBag.Messages</h2>
@@ -8,3 +8,26 @@
 <div>@Html.ActionLink("God", "Index", "God") </div>
 <div>@Html.ActionLink("Humans", "Humans", "God")</div>
 <div>@Html.ActionLink("Guest", "RsvpForm", "Home") </div>
+<div>@Html.ActionLink("Hypnotic Animated", "HypnoticAnimated", "Home") </div>
+<p>
+<div>Pet.Name:<label id="pet_name"></label></div>
+<div>Pet.Action:<label id="pet_action"></label></div>
+<div>Pet.Details:<label id="pet_details"></label></div>
+</p>
+<script src="../../Scripts/Domains/Pet.js" type="text/javascript"></script>
+<script>
+    $(function () {
+        // Create an instance of Cat in petCat.
+        var petCat = new Cat('Felix');
+
+        var details = petCat.getDetails();    // 'Felix has 4 legs'.
+        var action = petCat.action();         // 'Catch a bird'.
+        petCat.name = 'Sylvester';            // Change petCat's name.
+        petCat.legs = 7;                      // Change petCat's number of legs!!!
+        details = petCat.getDetails();        // 'Sylvester has 7 legs'.
+
+        $('#pet_name').text(petCat.name);
+        $('#pet_action').text(action);
+        $('#pet_details').text(details);
+    });
+</script>

@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "Map";
+}
+
+<h2>Map</h2>
+<table class='world'/>
+<script type="text/javascript">
+    $(function () {
+        var x = 200;
+        var y = 200;
+        var $world = $('.world');
+        $world.css({ width: x * 25, height: y * 25 });
+        for (var i = 0; i < x; i++) {
+            var cell = "";
+            for (var j = 0; j < y; j++) {
+                var id = i.toString() + j.toString()
+                cell += "<td class='cell' id=" + id + "> </td>";
+            }
+            $world.append("<tr>" + cell + "</tr>");
+        }
+    });
+</script>

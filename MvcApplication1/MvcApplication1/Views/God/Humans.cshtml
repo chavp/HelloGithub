@@ -27,22 +27,24 @@
     )
 </div>
 
-<div><label id="message"></label></div>
+<div><label id="lblMessage"></label></div>
 <script src="../../Scripts/jquery-ui-1.8.11.min.js" type="text/javascript"></script>
 <script src="../../Scripts/jquery.timer.js" type="text/javascript"></script>
 <script language=javascript>
     function callback() {
         setTimeout(function () {
-            $("#message").removeAttr("style").hide().fadeIn();
+            $lblMessage.removeAttr("style").hide().fadeIn();
         }, 1000);
     };
     function runEffect() {
         var options = {};
         // run the effect Pulsate
-        $("#message").effect("pulsate", options, 500, callback); //Highlight
+        $lblMessage.effect("pulsate", options, 500, callback); //Highlight
     };
 
     $(function () {
+        $lblMessage = $('#lblMessage');
+
         $.timer(3000, function (timer) {
             $.ajax({
                 type: "POST",
@@ -51,14 +53,15 @@
                 dataType: "json",
                 success: function (msg) {
                     if (msg.d) {
-                        if ($('#message').text() != msg.d) {
+
+                        if ($lblMessage.text() != msg.d) {
                             runEffect();
-                            $('#message').text(msg.d);
+                            $lblMessage.text(msg.d);
                         }
                     }
                 },
                 error: function () {
-                    
+
                 }
             });
         });

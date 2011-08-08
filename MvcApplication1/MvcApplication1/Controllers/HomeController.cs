@@ -23,6 +23,20 @@ namespace MvcApplication1.Controllers
             return View();
         }
 
+        public ActionResult Map()
+        {
+            return View();
+        }
+
+        public ActionResult HypnoticAnimated()
+        {
+            return View();
+        }
+        public ActionResult Sprites()
+        {
+            return View();
+        }
+
         [HttpGet]
         public ViewResult RsvpForm()
         {

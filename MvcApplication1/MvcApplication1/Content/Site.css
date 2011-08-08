@@ -136,3 +136,15 @@ div.box label
 	width: 40%;
 	font: bold 0.9em Arial, Helvetica, sans-serif;
 }
+
+.world
+{
+	border: 1px solid #D6DDE6;
+	border-collapse: collapse;
+}
+.cell
+{
+	border: 1px solid #D6DDE6;
+	width: 25px;
+	height: 25px;
+}
