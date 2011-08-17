@@ -5,7 +5,8 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <h2>Jquery Inline Form Validation Engine</h2>
-    <form id="formID" class="formular" method="post" action="">
+    <%--<form id="formID" class="formular" method="post" action="" runat="server">--%>
+    <div class="formular">
     <fieldset>
         <legend>User informations</legend>
         <label>
@@ -119,9 +120,12 @@
             <input class="validate[required] checkbox" type="checkbox" name="agree" />
         </label>
     </fieldset>
-    <input class="submit" type="submit" value="Validate & Send the form!" />
+    <%--<input class="submit" type="submit" value="Validate & Send the form!"/>--%>
+    <asp:Button ID="SendCommand" runat="server" Text="Validate & Send the form!" 
+            class="submit" onclick="SendCommand_Click"/>
     <hr />
-    </form>
+    </div>
+    <%--</form>--%>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ScriptContent" runat="server">
     <script src="Scripts/jquery.js" type="text/javascript"></script>

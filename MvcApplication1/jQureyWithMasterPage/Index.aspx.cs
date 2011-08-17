@@ -13,5 +13,13 @@ namespace jQureyWithMasterPage
         {
             
         }
+
+        protected void SendCommand_Click(object sender, EventArgs e)
+        {
+
+            string user = Request.Form["user"];
+            string firstname = Request.Form["firstname"];
+            //TODO: ทำ logic ของคุณต่อไป ...
+        }
     }
 }
