@@ -135,7 +135,11 @@
     <Content Include="Content\Site.css" />
     <Content Include="GodService.asmx" />
     <Content Include="HTMLPage1.htm" />
+    <Content Include="images\back1.png" />
+    <Content Include="images\back2.png" />
+    <Content Include="images\back3.png" />
     <Content Include="images\cogs.png" />
+    <Content Include="ParallaxCSSEffect.htm" />
     <Content Include="Scripts\Domains\Pet.js" />
     <Content Include="Scripts\jquery-1.5.1-vsdoc.js" />
     <Content Include="Scripts\jquery-1.5.1.js" />

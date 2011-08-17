@@ -13,6 +13,7 @@ namespace MvcApplication1
 
     public class MessageService : IMessageService
     {
+        
         List<string> _messages = new List<string>();
         #region IMessageService Members
 
