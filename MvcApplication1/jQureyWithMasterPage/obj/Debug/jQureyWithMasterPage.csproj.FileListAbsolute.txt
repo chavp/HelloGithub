@@ -1,0 +1,10 @@
+E:\Data\งานเขียน\problems\jQureyWithMasterPage\jQureyWithMasterPage\bin\jQureyWithMasterPage.dll
+E:\Data\งานเขียน\problems\jQureyWithMasterPage\jQureyWithMasterPage\bin\jQureyWithMasterPage.pdb
+E:\Data\งานเขียน\problems\jQureyWithMasterPage\jQureyWithMasterPage\obj\Debug\ResolveAssemblyReference.cache
+E:\Data\งานเขียน\problems\jQureyWithMasterPage\jQureyWithMasterPage\obj\Debug\jQureyWithMasterPage.dll
+E:\Data\งานเขียน\problems\jQureyWithMasterPage\jQureyWithMasterPage\obj\Debug\jQureyWithMasterPage.pdb
+E:\Data\GitRepositories\HelloGithub\MvcApplication1\jQureyWithMasterPage\bin\jQureyWithMasterPage.dll
+E:\Data\GitRepositories\HelloGithub\MvcApplication1\jQureyWithMasterPage\bin\jQureyWithMasterPage.pdb
+E:\Data\GitRepositories\HelloGithub\MvcApplication1\jQureyWithMasterPage\obj\Debug\ResolveAssemblyReference.cache
+E:\Data\GitRepositories\HelloGithub\MvcApplication1\jQureyWithMasterPage\obj\Debug\jQureyWithMasterPage.dll
+E:\Data\GitRepositories\HelloGithub\MvcApplication1\jQureyWithMasterPage\obj\Debug\jQureyWithMasterPage.pdb
