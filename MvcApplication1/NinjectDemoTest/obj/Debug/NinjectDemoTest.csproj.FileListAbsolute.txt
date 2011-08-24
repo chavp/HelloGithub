@@ -1,0 +1,9 @@
+E:\Data\GitRepositories\HelloGithub\MvcApplication1\NinjectDemoTest\obj\Debug\ResolveAssemblyReference.cache
+E:\Data\GitRepositories\HelloGithub\MvcApplication1\NinjectDemoTest\bin\Debug\lib\Moq.dll
+E:\Data\GitRepositories\HelloGithub\MvcApplication1\NinjectDemoTest\bin\Debug\lib\Ninject.dll
+E:\Data\GitRepositories\HelloGithub\MvcApplication1\NinjectDemoTest\bin\Debug\NinjectDemoTest.dll
+E:\Data\GitRepositories\HelloGithub\MvcApplication1\NinjectDemoTest\bin\Debug\NinjectDemoTest.pdb
+E:\Data\GitRepositories\HelloGithub\MvcApplication1\NinjectDemoTest\bin\Debug\Moq.dll
+E:\Data\GitRepositories\HelloGithub\MvcApplication1\NinjectDemoTest\bin\Debug\Ninject.dll
+E:\Data\GitRepositories\HelloGithub\MvcApplication1\NinjectDemoTest\obj\Debug\NinjectDemoTest.dll
+E:\Data\GitRepositories\HelloGithub\MvcApplication1\NinjectDemoTest\obj\Debug\NinjectDemoTest.pdb
