@@ -54,7 +54,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CatMyService.cs" />
-    <Compile Include="MockupModule.cs" />
+    <Compile Include="MockModule.cs" />
     <Compile Include="ServiceModule.cs" />
     <Compile Include="DogMyService.cs" />
     <Compile Include="IMyService.cs" />

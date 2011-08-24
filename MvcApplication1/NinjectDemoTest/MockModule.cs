@@ -8,7 +8,7 @@ using Moq;
 
 namespace NinjectDemoTest
 {
-    public class MockupModule : NinjectModule
+    public class MockModule : NinjectModule
     {
         public override void Load()
         {
