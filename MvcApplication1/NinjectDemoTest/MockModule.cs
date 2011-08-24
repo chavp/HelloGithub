@@ -8,10 +8,11 @@ using Moq;
 
 namespace NinjectDemoTest
 {
-    public class MockupModule : NinjectModule
+    public class MockModule : NinjectModule
     {
         public override void Load()
         {
+
             Mock<IMyService> mock = new Mock<IMyService>();
 
             mock.Setup(m => m.Hello(It.IsAny<string>())).Throws(new NotImplementedException());

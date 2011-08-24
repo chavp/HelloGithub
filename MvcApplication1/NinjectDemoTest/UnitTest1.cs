@@ -4,8 +4,10 @@ using System.Collections.Generic;
 using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Ninject;
-using Moq;
 using Ninject.Modules;
+using Ninject.Syntax;
+
+using Moq;
 
 namespace NinjectDemoTest
 {
@@ -62,13 +64,12 @@ namespace NinjectDemoTest
         //
         #endregion
 
+        public static readonly IKernel Kernel = new StandardKernel(new ServiceModule());
+
         [TestMethod]
         public void TestMethod1()
         {
-            NinjectModule module = new ServiceModule();
-            IKernel kernel = new StandardKernel(module);
-
-            IMyService service = kernel.Get<IMyService>();
+            IMyService service = Kernel.Get<IMyService>();
 
             Console.WriteLine(service.Hello(new MsgDto { Msg = "Chavp" }));
             Console.WriteLine(service.Hello("Chavp"));
