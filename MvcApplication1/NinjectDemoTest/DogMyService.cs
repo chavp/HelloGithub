@@ -14,7 +14,7 @@ namespace NinjectDemoTest
 
         public string Hello(MsgDto msg)
         {
-            return "Bof bof.... " + msg.Msg;
+            return "Bof bof.... MsgDto." + msg.Msg;
         }
     }
 }

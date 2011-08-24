@@ -5,6 +5,7 @@ using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Ninject;
 using Moq;
+using Ninject.Modules;
 
 namespace NinjectDemoTest
 {
@@ -64,20 +65,10 @@ namespace NinjectDemoTest
         [TestMethod]
         public void TestMethod1()
         {
-            IKernel ninjectKernel = new StandardKernel();
+            NinjectModule module = new ServiceModule();
+            IKernel kernel = new StandardKernel(module);
 
-            Mock<IMyService> mock = new Mock<IMyService>();
-
-            mock.Setup(m => m.Hello(It.IsAny<string>())).Throws(new NotImplementedException());
-            mock.Setup(m => m.Hello(It.IsAny<MsgDto>())).Throws(new NotImplementedException());
-
-            mock.Setup(m => m.Hello("Chavp")).Returns("Mock... Chavp");
-            //mock.Setup(m => m.Hello(It.IsAny<string>())).Returns("Mock... IsAny String");
-            mock.Setup(m => m.Hello(It.Is<MsgDto>( dto => dto.Msg == "Chavp" ))).Returns("Mock... MsgDto.Chavp");
-
-            ninjectKernel.Bind<IMyService>().ToConstant(mock.Object);
-
-            IMyService service = ninjectKernel.Get<IMyService>();
+            IMyService service = kernel.Get<IMyService>();
 
             Console.WriteLine(service.Hello(new MsgDto { Msg = "Chavp" }));
             Console.WriteLine(service.Hello("Chavp"));
